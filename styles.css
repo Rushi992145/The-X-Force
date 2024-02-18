@@ -1,3 +1,16 @@
+.hide-text{
+   height: 35px;
+   display : none;
+}
+
 body{
-    background-color: aqua;
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+}
+
+footer{
+    color: whitesmoke;
+}
+
+.abc{
+    color: whitesmoke;
 }
