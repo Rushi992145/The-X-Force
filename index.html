@@ -3,12 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Before and after pseudo selector</title>
+
+    <style>
+
+        body{
+            margin:0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            /* background: url(https://images.unsplash.com/photo-1519068737630-e5db30e12e42?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover; */
+
+        }
+
+        header::before{
+            content: "";
+            background: url(https://images.unsplash.com/photo-1519068737630-e5db30e12e42?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;      /*  To show text behind image */
+            top: 0;
+            left: 0;
+            opacity: 0.3;    /*To make image lighter and thicker */
+        }
+
+        .navigation{
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            display: flex;
+        }
+
+        li{
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        section{
+            height: 400px;
+            margin: 3px 23px ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* To add content before section */
+        /* section::before{
+            content: "this is a content";
+        } */
+
+        /* To add content after section */
+        /* section::after{
+            content: "this is a content";
+        } */
+
+        h2{
+           
+            font-size: 4rem;
+        }
+
+        p{
+            text-align: center;
+        }
+
+
+
+       
+
+    </style>
+
 </head>
 <body>
-    <h1>Hello</h1
-    <h2>Joshilkar</h2>
-    <h3>Ratul</h3>
+
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav></header>
+        <section>
+        <h2> Welcome to coding world</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore ducimus illo iste accusantium, recusandae voluptatem? Assumenda qui illo nisi porro rerum. Eveniet commodi itaque error quibusdam ut delectus rerum, ad dolorem esse odio.</p>
+        </section>
+        <hr>
+        
+    
     
 </body>
 </html>
