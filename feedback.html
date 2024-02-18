@@ -7,11 +7,50 @@
     <link rel="stylesheet" href="feddback.css">
 </head>
 <body>
-    <div class="box">
     
-    <form action="">
-        
-    </form>
-</div>
+    <div class="container">
+        <p class="feedback_info">FEEDBACK</p>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <div class="card">
+            <p>Give Some Rating</p>
+            <span onclick="gfg(1)"
+                  id="star">★
+            </span>
+            <span onclick="gfg(2)"
+            id="star">★
+            </span>
+            <span onclick="gfg(3)"
+            id="star">★
+            </span>
+            <span onclick="gfg(4)"
+            id="star">★
+            </span>
+            <span onclick="gfg(5)"
+            id="star">★
+            </span>
+        </div>
+        <h3 id="output">
+            Rating is: 0/5
+        </h3>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+          
+        </form>
+      </div>
+      <script src="/The-X-Force/feedback.js"></script>
 </body>
 </html>
