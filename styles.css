@@ -5,12 +5,33 @@
 
 body{
     background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer{
     color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
 }
 
 .abc{
     color: whitesmoke;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+}
+
+#button1{
+    color: whitesmoke;
+    background-color: transparent;
+    border: none;
+}
+
+.main{
+    font-size: 20px;
 }
