@@ -19,7 +19,7 @@
         <div style="color: white;">Designed by The X-Force</div>
         <div style="display: flex;margin-top: 20px;width: 100px;">
             <div ><button style="width: 150px;margin-right: 20px;padding: 10px;background-color: white;border: none;border-radius: 50px;color: blue;">Login</button></div>
-            <div><button style="width: 150px;padding: 10px;background-color: white;border: none;border-radius: 50px;color: blue;">Register</button></div>
+            <div><button style="width: 150px;padding: 10px;background-color: white;border: none;border-radius: 50px;color: blue;"><a style="text-decoration:none;color:blue" href="./Registration/src/registration.php">Register</a></button></div>
         </div>
     </div>
     <div style="width: 30vw;">
