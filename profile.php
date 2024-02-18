@@ -26,13 +26,13 @@
 
       Instruments: [Instruments they play]<br>
 
-Influences: [Their musical influences]<br>
+      Influences: [Their musical influences]<br>
 
-Career highlights: [Awards, performances, etc.]<br>
+      Career highlights: [Awards, performances, etc.]<br>
 
-About me: [Their unique personality or story]<br>
+      About me: [Their unique personality or story]<br>
 
-What I'm working on: [What they're currently working on]
+      What I'm working on: [What they're currently working on]
     </div>
     <div class="social_link">
        
