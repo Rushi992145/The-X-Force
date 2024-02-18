@@ -6,19 +6,8 @@ body {
     padding: 20px;
     height: auto;
     width: auto;
-    background-image: url(bg_feedback2.gif);
+    background-image: url(/The-X-Force/feedback_background.gif);
     background-size: cover;
-}
-
-h1, h2 ,h5,h4 {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
-}
-
-h2 {
-    margin-bottom: 20px;
 }
 
 form {
@@ -31,57 +20,14 @@ form {
     border-radius: 5px;
 }
 
-.feedback-categories {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.feedback-categories label {
-    display: inline-block;
-    width: 100px;
-    text-align: right;
-}
-
-.feedback-text label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-textarea {
-    width: 100%;
-    height: 100px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 0px -10px;
-    border-radius: 3px;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #449A44;
-}
-
-p {
-    text-align: center;
-    margin-top: 20px;
-}
-
 .box{
-    align-content: center;
+    /* align-content: center; */
+    float : left;
     border:2px solid black;
     padding: 10px 20px;
     width: 650px;
     margin:auto;
-    box-shadow: 10px 13px #1b5251;
-    background-color: rgb(68 80 74);
+    box-shadow: 10px 13px black;
+    background-color: transparent;
     
 }
