@@ -1,14 +1,12 @@
 let button1 = document.getElementById("button1");
 let button2 = document.getElementById("button2");
 let button3 = document.getElementById("button3");
-let button4 = document.getElementById("button4");
 
 let ans1 = document.getElementById("ans1");
 let ans2 = document.getElementById("ans2");
 let ans3 = document.getElementById("ans3");
-let ans4 = document.getElementById("ans4");
 
-let a=0,b=0,c=0,d=0;
+let a=0,b=0,c=0;
 
 button1.addEventListener("click",()=>{
     if(a==0){
@@ -40,16 +38,5 @@ button3.addEventListener("click",()=>{
     else{
         ans3.style.display = "none";
         c=0;
-    }
-})
-
-button4.addEventListener("click",()=>{
-    if(d==0){
-        ans4.style.display = "block";
-        d++;
-    }
-    else{
-        ans4.style.display = "none";
-        d=0;
     }
 })
